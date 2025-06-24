@@ -1,6 +1,5 @@
 fn main() {
-    let pattern = std::env::args().nth(1).expect("no pattern given");
-    let path = std::env::args().nth(2).expect("no path given");
-
-    println!("pattern: {:?}, path: {:?}", pattern, path)
+    for path in std::env::args().skip(1) {
+        println!("path: {}", path);
+    }
 }
