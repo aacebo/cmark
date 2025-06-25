@@ -1,5 +1,7 @@
 use std::{cell::RefCell, rc::Rc};
 
+pub mod compound;
+
 #[derive(Debug, Clone)]
 pub struct Tx<T> {
     copy: T,
