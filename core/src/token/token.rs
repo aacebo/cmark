@@ -1,4 +1,4 @@
-use super::{error::Error, position::Position};
+use crate::{error::Error, position::Position};
 
 #[derive(Debug, Clone, Default)]
 pub struct Token {

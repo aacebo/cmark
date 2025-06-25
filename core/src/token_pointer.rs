@@ -1,4 +1,4 @@
-use super::token::Token;
+use super::token::*;
 
 #[derive(Debug, Clone)]
 pub struct TokenPointer {
