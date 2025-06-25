@@ -1,4 +1,5 @@
 pub mod error;
+pub mod module;
 pub mod pointer;
 pub mod position;
 pub mod token;
